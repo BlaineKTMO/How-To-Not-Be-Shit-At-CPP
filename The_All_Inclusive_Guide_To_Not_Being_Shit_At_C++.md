@@ -1,6 +1,8 @@
 # You're shit at C++
 That's not a bad thing, C++ is an incredibly complicated language. Here's some things you need to learn before you walk around touting you know C++.
 
+This is an intermediate guide. You will be absolutely confused if you try to follow this guide without knowing the fundamentals and basics of C++ that they teach you in basic programming courses.
+
 If you don't want to mess around with an IDE, use this for the excercises: https://www.jdoodle.com/online-compiler-c++
 
 ## Introduction
@@ -23,10 +25,19 @@ This covers topics like:
 
 This is a good *starting point* but it neither has the breadth or depth.
 
-## What is a value?
-- Rvalue vs Lvalue
-- std::move
-- Move constructors and assignment operators
+## What is a value? Move semantics and a sprinkle of operator overloads
+- Rvalue vs Lvalue [Youtube](https://www.youtube.com/watch?v=fbYknr-HPYE)
+- Move Semantics [Youtube](https://www.youtube.com/watch?v=ehMg6zvXuMY)
+- Move assignment operator [YouTube](https://www.youtube.com/watch?v=OWNeCTd7yQE)
+- Questions:
+    - What kind of values does a pass by reference support? What about a pass by constant reference?
+    - What is the advantage of passing by constant reference over normal reference?
+    - What kind of value is `a + b` where a and b are integers?
+    - How do we define an lvalue reference and how do we define an rvalue reference?
+    - Why would we pass by rvalue reference?
+    - What are some common overloads for the '=' operator?
+    - What does std::move do?
+
 
 ## Structs v. Objects
 - What is a struct? [youtube](https://www.youtube.com/watch?v=IW16boBvQpc)
